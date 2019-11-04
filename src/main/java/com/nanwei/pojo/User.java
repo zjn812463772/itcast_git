@@ -3,6 +3,7 @@ package com.nanwei.pojo;
 public class User {
     private String usernmae;
     private int age;
+    private String password;
 
     public User(String usernmae, int age) {
         this.usernmae = usernmae;
@@ -23,5 +24,13 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
